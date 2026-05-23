@@ -1,0 +1,26 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    digest-crc (0.7.0)
+      rake (>= 12.0.0, < 14.0.0)
+    dotenv (2.8.1)
+    rake (13.4.2)
+    ruby-kafka (1.5.0)
+      digest-crc
+
+PLATFORMS
+  ruby
+  x86_64-linux
+
+DEPENDENCIES
+  dotenv (~> 2.1, >= 2.1.1)
+  ruby-kafka (~> 1.5)
+
+CHECKSUMS
+  digest-crc (0.7.0) sha256=64adc23a26a241044cbe6732477ca1b3c281d79e2240bcff275a37a5a0d78c07
+  dotenv (2.8.1) sha256=c5944793349ae03c432e1780a2ca929d60b88c7d14d52d630db0508c3a8a17d8
+  rake (13.4.2) sha256=cb825b2bd5f1f8e91ca37bddb4b9aaf345551b4731da62949be002fa89283701
+  ruby-kafka (1.5.0) sha256=f7646944e6c72ba3413e21423ff4d510b22e3ab760ac70940a3658e0e576238e
+
+BUNDLED WITH
+  4.0.0

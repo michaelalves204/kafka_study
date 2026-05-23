@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+  File: README
+  
+    &mdash; Documentation by YARD 0.9.43
+  
+</title>
+
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+
+  <link rel="stylesheet" href="css/common.css" type="text/css">
+
+<script type="text/javascript">
+  pathId = "README";
+  relpath = '';
+</script>
+
+
+  <script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="js/app.js"></script>
+
+
+  </head>
+  <body>
+    <div id="main_progress" aria-hidden="true"></div>
+
+    <div class="nav_wrap">
+      <iframe id="nav" src="file_list.html?1"></iframe>
+      <div id="resizer"></div>
+    </div>
+
+    <div id="main" tabindex="-1">
+      <div id="header">
+        <div id="menu">
+  
+    <a href="_index.html">Index</a> &raquo; 
+    <span class="title">File: README</span>
+  
+</div>
+
+        <div id="search">
+  
+    <a class="full_list_link" id="class_list_link"
+        href="class_list.html">
+
+        <svg width="24" height="24">
+          <rect x="0" y="4" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="12" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="20" width="24" height="4" rx="1" ry="1"></rect>
+        </svg>
+    </a>
+  
+</div>
+        <div class="clear"></div>
+      </div>
+
+      <div id="content"><div id='filecontents'><h2 id="Estudos_sobre_Kafka">Estudos sobre Kafka</h2>
+<h3 id="Alguns_conceitos_relacionados_no_Kafka_">Alguns conceitos relacionados no Kafka:</h3>
+<h4 id="Topic___canal_onde_as_mensagens_s_o_publicadas">Topic → canal onde as mensagens são publicadas</h4>
+<h4 id="Partition___divis_o_do_topic_para_paralelismo">Partition → divisão do topic para paralelismo</h4>
+<h4 id="Consumer_Group___grupo_de_consumidores__cada_mensagem___processada_por_apenas_um_consumer_do_grupo">Consumer Group → grupo de consumidores; cada mensagem é processada por apenas um consumer do grupo</h4>
+<h4 id="Broker___servidor_Kafka_que_armazena_os_dados">Broker → servidor Kafka que armazena os dados</h4>
+<h4 id="Offset___posi__o_da_mensagem_dentro_da_partition">Offset → posição da mensagem dentro da partition</h4>
+<h5 id="KRaft__Kafka_Raft_Metadata_mode____o_mecanismo_do_Kafka_que_substitui_o_ZooKeeper_para_gerenciar_o_cluster_">KRaft (Kafka Raft Metadata mode) é o mecanismo do Kafka que substitui o ZooKeeper para gerenciar o cluster.</h5>
+<blockquote>
+<p>Ele usa o algoritmo de consenso Raft para manter os metadados do cluster sincronizados entre os nós.</p>
+</blockquote>
+<blockquote>
+<p>O que o KRaft faz?
+Ele cuida de: Eleição de líder → qual broker/controller manda nos metadados , Gerenciamento de tópicos, Metadados de partitions, Replicação, Detecção de falhas, Configuração do cluster.</p>
+</blockquote></div></div>
+
+      <div id="footer">
+  Generated on Sat May 23 16:54:57 2026 by
+  <a href="https://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.9.43 (ruby-3.4.7).
+</div>
+
+    </div>
+  </body>
+</html>
